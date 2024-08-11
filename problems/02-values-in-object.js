@@ -40,6 +40,12 @@ function valuesInObject(obj) {
   return Object.values(obj);
 }
 
+
+
+let animalsB = {dog: "Wolfie", cat: "Jet", bison: "Bilbo"};
+console.log(valuesInObject(animalsB)); // => ["Wolfie", "Jet", "Bilbo"
+
+
 let foodsB= { apple: "tart", lemon: "sour", mango: "sweet" };
 console.log(valuesInObject(foodsB)); // Output: ['tart', 'sour', 'sweet']
 

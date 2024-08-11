@@ -23,10 +23,10 @@ function keysInObject(obj) {
 }
 
 let animals = { dog: 'Wolfie', cat: 'Jet', bison: 'Bilbo' };
-console.log(keysInObject(animals)); 
+console.log(keysInObject(animals)); // => ['dog', 'cat', 'bison']
 
 let foods = {apple: 'tart', lemon: 'sour', mango: 'sweet'};
-console.log(keysInObject(foods)); 
+console.log(keysInObject(foods)); //=> ["apple", "lemon", "mango"]
 
 
 /***********************Object.keys********************************** */
@@ -38,10 +38,10 @@ function keysInObject(obj) {
  
 
 let animalsB = { dog: 'Wolfie', cat: 'Jet', bison: 'Bilbo' };
-console.log(keysInObject(animalsB)); 
+console.log(keysInObject(animalsB)); // => ['dog', 'cat', 'bison']
 
 let foodsB = {apple: 'tart', lemon: 'sour', mango: 'sweet'};
-console.log(keysInObject(foodsB)); 
+console.log(keysInObject(foodsB)); //=> ["apple", "lemon", "mango"]
 
 
 

@@ -12,16 +12,18 @@ console.log(stringConverter("raccoon")); // => {r: 1, a: 1, c: 2, o: 2, n: 1}
 ***********************************************************************/
 
 function stringConverter(string) {
-  let countObj = {};
+  let countObj = {}; 
 
-  for (let char of string) {
-    if (countObj[char] === undefined) {
-      countObj[char]++;
+  for (let char of string) { 
+    if (countObj[char] === undefined) { 
+      countObj[char] = 1; 
+    } else {
+      countObj[char]++; 
     }
   }
-  return countObj;
-}
 
+  return countObj; 
+}
 // Example usage:
 console.log(stringConverter("apple"));   // => {a: 1, p: 2, l: 1, e: 1}
 console.log(stringConverter("banana"));  // => {b: 1, a: 3, n: 2}
